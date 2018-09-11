@@ -52,7 +52,5 @@ def recomendacao(nomeUsuario, usuarios):
 
 
 
-print("Base de Dados: ", usuarios)
-print("Código da função de  manhattan: ",manhattan(usuarios['Sam'], usuarios['Hailey']))
-print("Código da função de computar os vizinhos: ",computaVizinho("Sam", usuarios))
-print("Recomendação: ",recomendacao("Hailey", usuarios))
+print(manhattan(usuarios["Veronica"], usuarios["Sam"]))
+print(recomendacao("Veronica",usuarios))
